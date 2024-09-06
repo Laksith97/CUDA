@@ -12,3 +12,13 @@ int main(void) {
   cudaDeviceSynchronize();
   return 0;
 }
+
+// need nvcc compiler to execute
+
+/*
+Output:
+
+Hello World from host!
+Hello World! from thread 0,0 From device
+
+*/
